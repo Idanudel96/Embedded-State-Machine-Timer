@@ -21,3 +21,6 @@ The system implements a secure digital lock controlled by a software-based Finit
 * `StateMachine.c / .h` - Logic and transitions for the lock mechanism.
 * `keyboardmat.c / .h` - Keypad scanning, ASCII conversion, and cyclic buffer management via interrupts.
 * `LCD2x16Display.c / .h` - Driver for LCD initialization and text rendering.
+
+## Acknowledgments
+Special thanks to Prof. Elazar Flaxer for providing the foundational C templates and hardware-interfacing base code used throughout this project.
