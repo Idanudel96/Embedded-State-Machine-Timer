@@ -1,7 +1,7 @@
 # Embedded Digital Lock & Sequential Timer 🔒⏱️
 
 ## Overview
-A bare-metal embedded system project written in C for the Texas Instruments TMS320F28335 DSP (Delfino Evaluation Board). This project was developed as a final assignment for the "Microprocessors and Microcontrollers" course, fulfilling the advanced level requirements (Target Score: 85-90). 
+A bare-metal embedded system project written in C for the Texas Instruments TMS320F28335 DSP (Delfino Evaluation Board). This project was developed as a final assignment for the "Microprocessors and Microcontrollers" course. 
 
 The system implements a secure digital lock controlled by a software-based Finite State Machine (FSM). It requires a specific 4-digit passcode entered via a matrix keypad to transition from the `LOCKED` to the `OPEN` state. Once open, it initiates a hardware-based countdown timer before automatically securing the system again.
 
